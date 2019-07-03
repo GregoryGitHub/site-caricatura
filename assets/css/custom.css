@@ -1,0 +1,52 @@
+/* Cores */
+:root{
+    --dark-primary-color   : #512DA8;
+    --default-primary-color: #673AB7;
+    --light-primary-color  : #D1C4E9;
+    --text-primary-color   : #FFFFFF;
+    --accent-color         : #009688;
+    --primary-text-color   : #212121;
+    --secondary-text-color : #757575;
+    --divider-color        : #BDBDBD;
+}
+
+/* navbar */
+nav.navbar.navbar-expand-lg.navbar-custom{
+    background-color: var(--dark-primary-color)!important;
+}
+nav.navbar.navbar-expand-lg.navbar-custom .navbar-brand,nav.navbar.navbar-expand-lg.navbar-custom .nav-link{
+    color: var(--text-primary-color)!important;
+}
+/* Botoes */
+.btn-outline-success:not(:disabled):not(.disabled).active, .btn-outline-success:not(:disabled):not(.disabled):active, .show>.btn-outline-success.dropdown-toggle {
+    color: #fff;
+    background-color:var(--accent-color);
+    border-color:var(--accent-color);
+}
+.btn-outline-success {
+    color:var(--accent-color);
+    border-color:var(--accent-color);
+}
+.btn-outline-success:hover {
+    color: #fff;
+    background-color:var(--accent-color);
+    border-color:var(--accent-color);
+}
+
+
+/* Tipografia */
+*{font-family: "Permanent Marker"}
+p{font-family: "Raleway"!important;}
+.call-title{
+    text-align: center;
+    font-family: "Permanent Marker";
+    color:var(--default-primary-color);
+}
+
+/* layout */
+.carousel-item{
+    height: 400px;
+}
+.carousel-item img {
+    object-fit: cover;
+}
